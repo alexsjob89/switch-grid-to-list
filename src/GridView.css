@@ -1,0 +1,20 @@
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.list-view .grid-container {
+    grid-template-columns: 1fr;
+}
+
+.list-view .grid-item {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
